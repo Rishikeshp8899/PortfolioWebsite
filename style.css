@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Pen+Script&family=Pirata+One&family=Poppins&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Pen+Script&family=Pirata+One&family=Poppins&family=Shadows+Into+Light&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&family=Nanum+Pen+Script&family=Pirata+One&family=Poppins&family=Shadows+Into+Light&family=Tektur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes imageR {
+    0%   {  transform: rotate(90deg);}
+    25%  { transform: rotate(180deg);;}
+    50%  { transform: rotate(270deg);}
+    75%  { transform: rotate(360deg);}
+    100% {}
+  }
+
+  img{
+    border-radius: 10%;
+    
+  }
+  #STRENGTHS > div > div > div.col-sm-12.col-lg-9 > div > h2{
+    font-family: "Bebas Neue", sans-serif;
+  }
+  #EXPERIENCE > div > div > div.col-sm-12.col-lg-9 > div > h2{
+    font-family: "Shadows Into Light", cursive;
+  }
+
+  #STRENGTHS > div > div > div.col-sm-12.col-lg-9 > div > ul > li>h5{
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  #EXPERIENCE > div > div > div.col-sm-12.col-lg-9 > div > div > div > div > div > h5{
+ 
+    font-family: "Shadows Into Light", cursive;
+
+  }
+
+  #EXPERIENCE > div > div > div > div > h2{
+    font-family: "Shadows Into Light", cursive;
+  }
+
+  #EXPERIENCE > div > div > div > div > div > div > div > div > h5{
+    font-family: "Shadows Into Light", cursive;
+  }
+
+  #my_bg > header > div > div.col-12.col-lg-6.d-flex.flex-column.p-1 > div.container-fluid > div.col-12.d-flex.align-content-center.justify-content-center.bg-info > h1{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+  }
+  img:hover{
+    animation: imageR  10s infinite;
+  }
+.videoCon{
+    position: relative ;
+    z-index: 2;
+ 
+}
+video:hover{
+  position:absolute ;
+  width: 99%;
+  height: 99%;
+  z-index: 1;
+}
+
+video{
+  width: 50%;
+  height: 100%;
+  padding: auto;
+  margin: auto;
+  border: black;
+  border-radius: 2%;
+  
+}

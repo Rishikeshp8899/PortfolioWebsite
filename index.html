@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Poppins&display=swap" rel="stylesheet">
+  <title>Portfolio Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Silkscreen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Silkscreen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Shadows+Into+Light&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Shadows+Into+Light&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Shadows+Into+Light&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Indie+Flower&family=Jost:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Shadows+Into+Light&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Indie+Flower&family=Jost:wght@700&family=Paytone+One&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300;500&family=Shadows+Into+Light&family=Silkscreen&family=Whisper&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik+Scribble&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+
+
+<style>
+  
+    body{
+      font-family: 'Poppins',sans-serif;
+    }
+    h1,h2,h3,h5,h6,p{
+      font-family: 'Poppins',sans-serif;
+    }
+    .my_bg {
+            background:
+            linear-gradient(to right, 
+              rgba(0,0,0, 0.75), 
+              rgba(0,0,0, 0.75)), url(./img/SoftwareDeveloper.jpg) no-repeat;
+              background-size: cover;
+              height: 70vh;
+              width:100vw;
+              opacity: 83%;
+         
+        }
+
+  </style>
+
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary position-fixed w-100 bg-dark">
+<div class="container">
+  <a href="#" class="navbar-brand">
+    <strong style="font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Silkscreen', sans-serif;">Portfolio Website</strong>
+  </a>
+  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" arial-controls="navbarSupportedContent" 
+  aria-expanded="false" aria-label="Toggle navigatIcon" >
+  <span class="material-symbols-outlined navbar-toggler-icon opacity-100 " style="color: wheat;">
+    menu
+    </span>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+      <li class="nav-item">
+        <a href="#my_bg" class="nav-link active text-success" aria-current="page" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#OBJECTIVES" class="nav-link  text-success opacity-100" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">CAREER OBJECTIVES</a>
+      </li>
+      <li class="nav-item">   
+        <a href="#skill" class="nav-link  text-success opacity-100" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">SKILLS</a>
+      </li>
+      <li class="nav-item">
+        <a href="#QUALIFICATIONS" class="nav-link  text-success opacity-100" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">
+          EDUCATIONAL QUALIFICATIONS
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#STRENGTHS" class="nav-link  text-success opacity-100" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">
+          STRENGTHS
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#EXPERIENCE" class="nav-link  text-success opacity-100" style="font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Silkscreen', sans-serif;">
+          EXPERIENCE
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+ </nav>
+ <div class="my_bg card " id="my_bg">
+  <header class=" container-fluid card-body p-1 videoCon  overflow-hidden border-1">
+    <div class="row pt-1 "> <div class="h-25">
+          .
+        </div>
+      <div class="col-12 col-lg-6 d-flex flex-column p-1 ">
+        <div class="h-25">
+          <br><br><br>
+        </div>
+      <div class="container-fluid ">
+        <div class="col-12 d-flex align-content-center justify-content-center bg-info">
+        <h1>
+          <strong class="text-uppercase customDiv" id="PERSONAL-DETAILS"> PERSONAL DETAILS </strong>
+        </h1>
+      </div>
+        <div class="col-12 bg-dark">
+          <div class="container">
+            
+          <div class="row">
+             <div class="col-lg-6 d-flex" style="color: green;font-family: 'Bebas Neue', sans-serif;
+             font-family: 'Jost', sans-serif;
+             font-family: 'Poppins', sans-serif;
+             font-family: 'Rubik', sans-serif;
+             font-family: 'Silkscreen', sans-serif;"><strong class="" style="">Name:</strong><span> <h4 class="" 
+             style="color: wheat;">Rishikesh Manohar Patil</h4></span> </div>
+             <div class="col-lg-6 d-flex" style="color: green;font-family: 'Bebas Neue', sans-serif;
+             font-family: 'Jost', sans-serif;
+             font-family: 'Poppins', sans-serif;
+             font-family: 'Rubik', sans-serif;
+             font-family: 'Silkscreen', sans-serif;"><strong style="">Address:</strong> <h4 style="color: wheat;">A/203, Glory, Dynamic Ultima,Before Mutha College, Kalyan, Thane</h4> </div>
+          </div>
+         </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex" style="color: green;font-family: 'Bebas Neue', sans-serif;
+              font-family: 'Jost', sans-serif;
+              font-family: 'Poppins', sans-serif;
+              font-family: 'Rubik', sans-serif;
+              font-family: 'Silkscreen', sans-serif;">
+             <strong style=""
+             >Contact No:</strong> <h4 class=""style="color: wheat;">8879251498</h4>  <br>
+          </div>  
+          <div class="col-lg-6 overflow-hidden d-flex" style="color: green;color: green;">
+            <strong style="font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Jost', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Rubik', sans-serif;
+            font-family: 'Silkscreen', sans-serif;" >Email:</strong> <h4 style="color: wheat;" class="text-lowercase">patilrishikeshm88@gmail.com</h4>  <br>
+          </div> 
+            </div>
+          </div>
+          <div class="col-lg-12 bg-danger d-flex">
+             <strong style="font-family: 'Bebas Neue', sans-serif;
+             font-family: 'Jost', sans-serif;
+             font-family: 'Poppins', sans-serif;
+             font-family: 'Rubik', sans-serif;
+             font-family: 'Silkscreen', sans-serif;">LinkedIn:</strong> <h4 class="overflow-hidden"><a  href="https://www.linkedin.com/in/rishikesh-patil-490b5a1a3/" class="text-decoration-none" style="color: white;">https://www.linkedin.com/in/rishikesh-patil-490b5a1a3/</a></h4>  <br>
+       
+          </div>
+          <div class="d-flex  align-content-center  justify-content-center ">
+            <Button class="bg-dark text-warning w-100 " id="dowRes">Download Resume</Button>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+      <div class="d-none d-lg-flex p-2 col-lg-6 d-flex align-content-center justify-content-center h-3 ">
+     <video width="condition" id="hover-audio" controls="controls" type="video/mp4" autoplay="autoplay" loop="loop"  class="justify-content-center mt-5">
+   
+      <source  src="./videos/20240311_152312.mp4" type="video/mp4">
+     </video>
+      </div>
+    </div>
+   </header>
+ </div>
+ 
+
+ <div id="OBJECTIVES" class="h-100 bg-dark container-fluid" style="color: aliceblue;">
+<div class="row">
+  <div class="col-lg-9 d-flex align-content-center justify-content-center flex-column">
+    
+<div id="typing-title" class="text-info p-2 fs-3" style="font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Silkscreen', sans-serif;"></div>
+<div>
+  <p class="fs-4" style="font-family: 'Paytone One', sans-serif;;">To obtain a long-term career with an organization having a strong background that provides good
+    opportunity for enhancement of professional and personal status.</p>
+</div>
+  </div>
+  <div class="col-lg-3 d-flex align-content-center justify-content-between">
+    <img src="./img/download.png"  class="p-2" style="" alt="">
+  </div>
+</div>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  var titleElement = document.getElementById("typing-title");
+  var textToType = "CAREER OBJECTIVES!..";
+  var speed = 100; // typing speed in milliseconds
+  var time=" "
+
+  function typeText() {
+    if (textToType.length > 0) {
+      titleElement.innerHTML += textToType.charAt(0);
+      time +=textToType.charAt(0);
+      textToType = textToType.substring(1);
+      setTimeout(typeText, speed);
+    }else{
+      titleElement.innerHTML="";
+      textToType=time;
+      time="";
+      setTimeout(typeText, speed);
+    }
+  
+}
+
+  // Start the typing animation
+  
+  typeText();
+});
+</script>
+ </div>
+<div id="skill" class="bg-secondary">
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-12 col-lg-6 d-flex flex-column  text-center">
+<div>
+  <h1>
+      <strong class="customDiv" id="Soft-Skill">
+                  <u> Soft Skill</u> 
+  </strong>
+  </h1>
+</div>
+<div>
+  <ol>
+    <li>
+      <i class="text-light">
+         An analytical mind with the ability to think creatively, clearly and logically.
+      </i>
+     
+    </li>
+    <li>
+      <i class="text-light">
+         Decision making ability on the site of situations for recovering, maintaining and solving problems
+  
+      </i>
+       </li>
+    <li>
+      <i class="text-light">
+         Ability to work accurately and pay attention to details.
+      </i>
+     
+    </li>
+    <li>
+      <i class="text-light">
+          Good spoken and written communication skills and leadership skills
+      </i>
+    
+
+
+    </li>
+  </ol>
+</div>
+    </div>
+    <div class="col-12 col-lg-6 d-flex flex-column text-center">
+      <div>
+        <h1>
+            <strong class="customDiv" id="Technical-Skills">
+             <u> Technical Skills</u>
+        </strong>
+        </h1>
+      </div>
+      <div>
+        <ol>
+          <li>
+         <b>Computer Scienec</b> : <i class="text-light"> Data structure , Algorithms, Computer Network, DBMS</i>
+          </li>
+          <li>
+           <b> Statistics</b>  <i class="text-light">  And  </i><b>Discrete Mathematics</b>
+          </li>
+          <li>
+          <b> Computer Language</b> : <i class="text-light">Python,C/C++ ,Java,JavaScript</i> 
+          </li>
+          <li>
+          <b> FrontEnd </b> : <i class="text-light">HTML,CSS,ReactJs,Bootstrap 5</i> 
+          </li>
+          <li>
+           <b> BackEnd</b>: <i class="text-light">SpringBoot,NodeJs </i> 
+          </li>
+          <li>
+           <b> Java</b>: <i class="text-light">Core Java,JDBC,JSP,SpringMVC,Hibernate</i> 
+          </li>
+          <li>
+           <b> Cloud Computing</b>: <i class="text-light"> AWS</i>
+          </li>
+          <li>
+           <b>SQL</b> , <b> Excel sheet</b> <i class="text-light">(Basics)</i> 
+          </li>
+          <li>
+           <b> Prompt Engineering</b>: <i class="text-light">chartgpt</i> 
+          </li>
+          <li>
+          <b> Economics</b> , <b>Accounting</b> 
+          </li>
+        </ol>
+      </div>
+          </div>
+  </div></div>
+</div>
+<div class="" id="QUALIFICATIONS">
+<div class="">
+  <h3 class="text-info customDiv" id="EDUCATIONAL-QUALIFICATIONS">
+  </h3>
+  <h3 class="">
+    SPECIALIZATION: - COMPUTER SCIENCE
+  </h3>
+</div>
+<div class="container-fluid">
+  <table class="table table-striped">
+   <thead >
+    <tr class="row">
+    <th class=" col-lg-3">Standard/Degree</th>
+    <th class=" col-lg-3">
+      Year of Passing
+    </th>
+    <th class=" col-lg-3">
+      Board / University/College
+    </th>
+    <th class=" col-lg-3">
+      Percentage/Grade
+    </th></tr>
+   </thead>
+   <tbody>
+    <tr class="row">
+    <td class=" col-lg-3">
+MMS
+    </td>
+    <td class=" col-lg-3">
+      Pursuing
+    </td>
+    <td class=" col-lg-3">
+      Swayam Siddhi College of
+Management and Research
+    </td>
+    <td class=" col-lg-3">
+      Pursuing
+    </td>
+  </tr>
+  <tr class="row">
+    <td class=" col-lg-3">
+      MSc CS
+    </td>
+    <td class=" col-lg-3">
+      2022
+    </td>
+    <td class=" col-lg-3">
+      B.K.Birla College
+    </td>
+    <td class=" col-lg-3">
+     10
+    </td>
+  </tr>
+  <tr class="row">
+    <td class=" col-lg-3" >
+      BSc CS
+    </td>
+    <td class=" col-lg-3">
+      2020
+    </td>
+    <td class=" col-lg-3">
+      K.M.Agrawal College
+    </td>
+    <td class=" col-lg-3">
+     7.96
+    </td>
+  </tr>
+  <tr class="row">
+    <td class=" col-lg-3">
+      HSC
+    </td>
+    <td class=" col-lg-3">
+      2017
+    </td>
+    <td class=" col-lg-3" >
+      HSC
+    </td>
+    <td class=" col-lg-3">
+     68.31
+    </td>
+  </tr>
+  <tr class="row">
+    <td class=" col-lg-3">
+      SSC
+    </td>
+    <td class=" col-lg-3">
+      2015
+    </td>
+    <td class=" col-lg-3">
+      SSC
+    </td>
+    <td class=" col-lg-3">
+     79.80
+    </td>
+  </tr>
+   </tbody>
+  </table>
+</div>
+</div>
+<div class="bg-dark" id="STRENGTHS">
+  <div class="container-fluid"> 
+    <div class="d-flex">
+      
+      <div class="col-sm-12 col-lg-9"> 
+        <div class="d-flex flex-column  "> 
+          <h2 class="text-white p-1 text-center">STRENGTHS</h2>
+          <ul>
+            <li> <h5 class="text-white p-1 text-left">  Ability to learn new technologies and adapt new environments  </h5>
+            </li>
+         
+          <li>
+           <h5 class="text-white p-1 text-left"> Friendly and approachable demeanor, which allows me to build positive relationships with my colleagues
+            and clients.
+            </h5>
+            </li>
+            <li>
+              <h5 class="text-white p-1 text-left"> 
+             I have a natural ability to connect with people and create a comfortable, collaborative work
+            environment. </h5> 
+          </li>
+          </ul>
+        </div>
+      </div>
+     
+      <div class="col-lg-3 d-flex align-content-center justify-content-between">
+        <img src="./img/file.jpeg" alt="" class="w-75 p-3">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-secondary " id="EXPERIENCE">
+  
+
+
+
+  <div class="container-fluid"> 
+    <div class="d-flex">
+      
+      <div class="col-sm-12 col-lg-12"> 
+        <div class="d-flex flex-column  "> 
+          <h2 class="text-white p-1 text-center text-lg-left">EXPERIENCE</h2>
+
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 mb-3 mb-sm-0 p-1">
+              <div class="card bg-dark">
+                <div class="card-body">
+               
+                  <p class="card-text"><h5 class="text-white p-1 text-left"> <a href="./Subpages/Expricence.html" class="text-decoration-none text-white">4 Month Internship</a>  </h5></p>
+                  <a  href="./Subpages/Expricence.html" class="btn btn-primary">Go </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 p-1">
+              <div class="card bg-dark">
+                <div class="card-body">
+               
+                  <p class="card-text"> <h5 class="text-white p-1 text-left"> Gate 2023 CSE Score is 25 Marks
+                  </h5></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 p-1">
+              <div class="card bg-dark">
+                <div class="card-body">
+                 
+                  <p class="card-text"><h5 class="text-white p-1 text-left"> 
+                    <a href="./Subpages/Expricence.html" class="text-decoration-none text-white"> kisanDhan project</a> </h5></p>
+                  <a href="./Subpages/Expricence.html" class="btn btn-primary">Go </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 p-1 ">
+              <div class="card bg-dark">
+                <div class="card-body">
+                  <p class="card-text"><h5 class="text-white p-1 text-left"> 
+                    <h5 class="text-white p-1 text-left">  <a href="./Subpages/Expricence.html" class="text-decoration-none text-white">GrabOn Internship</a> </h5> 
+                  <a href="./Subpages/Expricence.html" class="btn btn-primary">Go </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-sm-12 col-lg-6 p-1 ">
+              <div class="card bg-dark">
+                <div class="card-body">
+                  <p class="card-text"><h5 class="text-white p-1 text-left"> 
+                    <h5 class="text-white p-1 text-left">  <a href="./Subpages/Expricence.html" class="text-decoration-none text-white">Java Full Stack Developer</a> </h5> 
+                  <a href="./Subpages/Expricence.html" class="btn btn-primary">Go </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+     
+    
+    </div>
+  </div>
+</div>
+<br>
+<div class="" id="PERSONALDETAILS">
+  <div class="container-fluid">
+    <div class="d-flex flex-column">
+      <div class="text-center">
+    <b> PERSONAL DETAILS</b>   
+      </div>
+    
+    <div class="d-flex flex-row justify-content-around">
+      <div class="">
+      <b> Date of Birth</b>:-<h5 class="text-success">8/08/1999</h5> 
+      </div>
+      <div class="">
+     <b> Marital Status</b>:-<h5 class="text-success">Single</h5>
+      </div>
+      <div class="">
+       <b>Languages Known</b>:-<h5 class="text-success"> English , Hindi,& Marathi</h5>
+      </div>
+    </div>
+</div>
+  </div>
+
+</div>
+
+<script>
+ function handleIntersection(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Run the common function when a div is visible
+                    console.log(`Div ${entry.target.id} is now visible on the screen!`);
+                    // Call your common function here
+                    commonFunction(entry.target.id);
+                }
+            });
+        }
+
+        // Your common function to be executed when a div is visible
+        function commonFunction(targetDiv) {
+          document.addEventListener("DOMContentLoaded", function() {
+  var titleElement = document.getElementById(`#${targetDiv}`);
+
+  var textToType = targetDiv;
+  var speed = 100; // typing speed in milliseconds
+  var time=" "
+
+ function typeText() {
+    if (textToType.length > 0) {
+      titleElement.innerHTML += textToType.charAt(0);
+      time +=textToType.charAt(0);
+      textToType = textToType.substring(1);
+      setTimeout(typeText, speed);
+    }else{
+      titleElement.innerHTML="";
+      textToType=time;
+      time="";
+      setTimeout(typeText, speed);
+    }
+  
+}
+
+  // Start the typing animation
+  
+  typeText();
+});
+
+        }
+        // Create an intersection observer
+        const observer = new IntersectionObserver(handleIntersection, { threshold: 1 });
+
+        // Get all div elements with the class 'customDiv'
+        const targetDivs = document.querySelectorAll('.customDiv');
+
+        // Start observing each div
+        targetDivs.forEach(div => {
+            observer.observe(div);
+        });
+  
+const video = document.getElementById('hover-audio');
+
+// Pause audio when the page loads
+video.pause()
+
+// Play audio when hovering over the video
+video.addEventListener('mouseover', () => {
+  video.play();
+});
+
+// Pause audio when mouse leaves the video
+video.addEventListener('mouseleave', () => {
+  video.pause();
+});
+const downloadCv = document.getElementById('dowRes');
+
+downloadCv.onclick=()=>{
+  window.location.href="https://drive.google.com/file/d/12CxWA1_b1GVGX5e6hVtqMgyLWYsnfvFx/view?usp=drive_link"
+}
+
+
+</script>
+<script src="./script.js"></script>
+</body>
+</html>
